@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_700">#2E7D32</color>
+    <color name="green_900">#1B5E20</color>
+    <color name="amber_700">#FFA000</color>
+    <color name="amber_900">#FF6F00</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="success">#2E7D32</color>
+    <color name="success_bg">#1A2E7D32</color>
+    <color name="warning">#E65100</color>
+    <color name="warning_bg">#26FF9800</color>
+    <color name="danger">#C62828</color>
+    <color name="danger_bg">#1AC62828</color>
+    <color name="divider">#33888888</color>
+</resources>
