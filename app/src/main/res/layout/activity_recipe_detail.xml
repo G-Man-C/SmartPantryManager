@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.RecipeDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvDetailName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            tools:text="Scrambled Eggs" />
+
+        <TextView
+            android:id="@+id/tvDetailDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="15sp"
+            tools:text="Soft, creamy eggs ready in five minutes." />
+
+        <TextView
+            android:id="@+id/tvMatchStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="✓ You have everything you need for this recipe" />
+
+        <TextView
+            style="@style/SectionHeader"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/ingredients" />
+
+        <!-- Filled from code: one TextView per ingredient -->
+        <LinearLayout
+            android:id="@+id/ingredientsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <TextView
+            style="@style/SectionHeader"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/method" />
+
+        <TextView
+            android:id="@+id/tvSteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:textSize="16sp"
+            tools:text="1. Whisk the eggs." />
+    </LinearLayout>
+</ScrollView>
