@@ -84,7 +84,7 @@ Having an ingredient but not enough of it counts as missing.
 ## Setup and run
 
 ```bash
-git clone https://github.com/<your-username>/SmartPantryManager.git
+git clone https://github.com/G-Man-C/SmartPantryManager.git
 ```
 
 1. In Android Studio choose **File > Open** and select the cloned `SmartPantryManager` folder (the one containing `settings.gradle`).
@@ -131,4 +131,4 @@ The matching logic in `logic/` contains no Android code, which is what makes it 
 
 ## Author
 
-<Your name> — <student number>
+Graeme Croukamp - 402305796
